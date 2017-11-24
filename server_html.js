@@ -18,7 +18,6 @@ let App = {
         return emitter
     }
 }
-
 let app = App.start()
 app.on('root', function(res) {
         res.write('Je suis à la racine')
